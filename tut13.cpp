@@ -16,7 +16,7 @@ int main(){
     // cout<<"the sum is " <<c<<endl;
     // cout<<"the global c is " <<::c;
 
-    // **********float,double and long double literals**********
+    // // **********float,double and long double literals**********
     
     // float d = 34.4f;             
     // long double e =34.4L;
@@ -27,12 +27,30 @@ int main(){
     // cout<<"the size of 34L is "<<sizeof(34.4f)<<endl;
     // cout<<"the value of d is "<<d<<endl<<"the value of e is "<<e;
 
-    // **************Reference variables*******************
-    // rohan das----> monty -----> rohu ----> dangerous coder
-    float x = 455;
-    float & y = x;
-    cout<<x<<endl;
-    cout<<y<<endl;
+    // // **************Reference variables*******************
+    // // rohan das----> monty -----> rohu ----> dangerous coder
+    // float x = 455;
+    // float & y = x;
+    // cout<<x<<endl;
+    // cout<<y<<endl;
+
+    //************** Typercasting *****************************
+
+    int a= 45;
+    float b = 45.46;
+    cout<<"the value of a is "<<(float)a<<endl;
+    cout<<"the value of a is "<<float(a)<<endl;
+
+
+    cout<<"the value of b is "<<(int)b<<endl;
+    cout<<"the value of b is "<<int(b)<<endl;
+    int c = int(b);
+
+    cout<<"the expression is "<<a+ b<<endl;
+    cout<<"the expression is "<<a+ int(b)<<endl;
+    cout<<"the expression is "<<a+ (int)b<<endl;
+
+
 
     return 0;
  }
