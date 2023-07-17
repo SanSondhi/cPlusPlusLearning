@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-    int a;
-    a = 100;
-    ++a;
-    cout<<a;
+    int a = 20;
+    int b= 100;
+    int c= a%b;
+    cout<<c;
 }
