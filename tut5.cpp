@@ -7,7 +7,7 @@ int main()
     cin>>num1; /*'>>' is called extraction operator*/
     
     cout<<"enter the value of num2\n"; /* '<<' is called insertion operator */
-    cin>>num2; /* '>>' is called extraction operator*/
+    cin>>num2; /* '>>' is called extraction operator*/5
     
     cout<<"the product is "<<num1*num2;
     return 0;

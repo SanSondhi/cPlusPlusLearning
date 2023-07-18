@@ -32,7 +32,10 @@ int main(){
     cout<<"the value of a < b is "<<(a<b)<<endl;
     cout<<"the value of a <= b is "<<(a<=b)<<endl;
     cout<<"the value of a >= b is "<<(a>=b)<<endl;
-    cout<<"the value of the a == b";
+    cout<<"the value of the a == b"<<endl;
+
+    // Logical operators
+    cout<<"the value of logical operator ((a==b) && (a<b)) is "<<((a==b)&&(a<b));
     
     return 0;
 }

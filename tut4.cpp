@@ -8,7 +8,7 @@ void sum(){
 
  int main(){
     int glo=9;
-    glo=78;
+    glo = 78; 
 
     int a=4,b=6;
     float pi =3.14;

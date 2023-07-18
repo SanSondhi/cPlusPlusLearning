@@ -50,7 +50,5 @@ int main(){
     cout<<"the expression is "<<a+ int(b)<<endl;
     cout<<"the expression is "<<a+ (int)b<<endl;
 
-
-
     return 0;
  }
