@@ -1,24 +1,40 @@
 #include<iostream>
 using namespace std;
+int main()
+{
+    int i,j,k,l;
 
-int main(){
-    // for (int i = 0; i < 40; i++)
-    // {
-    //     /* code */
-    //     if(i==2){
-    //         break;
-    //     }
-    //     cout<<i<<endl;
-    // }
-    for (int i = 0; i < 40; i++)
+    for(i=4;i>=1;i--)
     {
-        /* code */
-        if(i==2){
-            continue;
+        for(j=1;j<=i;j++)
+        {
+            cout<<"*";
         }
-        cout<<i<<endl;
+        for(k=1;k<=8-2*i;k++)
+        {
+            cout<<" ";
+        }
+        for(l=1;l<=i;l++)
+        {
+             cout<<"*";   
+        }
+        cout<<endl;
     }
-
-    
-    return 0;
+     for(i=1;i<=4;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            cout<<"*";
+        }
+        for(k=1;k<=8-2*i;k++)
+        {
+            cout<<" ";
+        }
+        for(l=1;l<=i;l++)
+        {
+             cout<<"*";   
+        }
+        cout<<endl;
+    }
+   
 }
