@@ -2,15 +2,17 @@
 using namespace std;
 
 int main() {
-    int n, sum = 0;
 
-    cout << "Enter a positive integer: ";
-    cin >> n;
+    int rows;
 
-    for (int i = 1; i <= n; ++i) {
-        sum += i;
+    cout << "Enter number of rows: ";
+    cin >> rows;
+
+    for(int i = 1; i <= rows; ++i) {
+        for(int j = 1; j <= i; ++j) {
+            cout << "* ";
+        }
+        cout << "\n";
     }
-
-    cout << "Sum = " << sum;
     return 0;
 }
